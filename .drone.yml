@@ -7,8 +7,8 @@ pipeline:
       - npm test
   slack:
     image: plugins/slack
-    username: minhcd
-    channel: "@minhcd"
+    username: drone
+    channel: minh_test
     secrets: [ slack_webhook ]
 
 matrix:
